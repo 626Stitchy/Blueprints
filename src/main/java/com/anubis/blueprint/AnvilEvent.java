@@ -24,6 +24,7 @@ public class AnvilEvent implements Listener {
         if(e.getInventory().getItem(0) == null || e.getInventory().getItem(1) == null || !BluePrint.isBluePrint(e.getInventory().getItem(1))) {
             return;
         }
+
         BluePrint bluePrint = plugin.getBluePrintFromType(BluePrint.getBluePrintType(e.getInventory().getItem(1)));
         if(e.getInventory().getItem(0).getType() != bluePrint.SecondaryMaterial) {
             return;
