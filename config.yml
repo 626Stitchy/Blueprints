@@ -1,0 +1,24 @@
+##Lang
+invalidUsage: "&9BluePrint &7> &cInvalid usage! Use /blueprint help for more information"
+durabilityLore: "&6&lDurability left: &9%durability%" #%durability% has to be used to put the durability left
+xpCostLore: "&6&lLevels Required: &9%levels%" #%levels% has to be used to put the levels used
+secondaryMaterialLore: "&6&lPut in anvil with: &9%secondarymaterial%" #%secondarymaterial% has to be used to put the secondary material
+configReload: "&9BluePrint &7> &aReload Completed"
+bluePrintUsed: "&9BluePrint &7> &aThe blueprint has %durability% durability left"
+bluePrintBroke: "&9BluePrint &7> &aThe blueprint has ran out of durability and broke"
+bluePrintGiven: "&9BluePrint &7> &aSuccessfully gave %player% a blueprint"
+playerNotFound: "&9BluePrint &7> &cPlayer %player% not found"
+invalidSyntaxGive: "&9BluePrint &7> &cInvalid syntax! Use /blueprint give (player) sellwand (durability)"
+
+##Blueprints
+blueprints:
+  1:
+    name: 'SellWand'
+    bluePrintDisplayName: '&5&lSell Wand Blueprint'
+    secondaryMaterial: 'GOLDEN_HOE'
+    uniqueIdentifier: 'blueprint-sellwand'
+    propName: '&5&lSell Wand'
+    propDescription: 'Easily sell items!'
+    propMaterial: 'GOLDEN_HOE'
+    propCommand: 'me test'
+    xpLevelRequired: 10

@@ -1,0 +1,10 @@
+main: com.anubis.blueprint.Main
+version: 1.0.0
+author: 626Stitchy
+name: Blueprint
+description: Blueprint plugin
+api-version: 1.13
+
+commands:
+  blueprint:
+    description: Main command
