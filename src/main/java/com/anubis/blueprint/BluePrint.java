@@ -25,7 +25,6 @@ public class BluePrint {
         this.Name = Name;
         this.BluePrintDisplayName = BluePrintDisplayName;
         this.UniqueIdentifier = UniqueIdentifier;
-        System.out.println(SecondaryMaterial);
         this.SecondaryMaterial = Material.getMaterial(SecondaryMaterial);
         this.PropName = PropName;
         this.PropDescription = PropDescription;
